@@ -451,7 +451,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconst getPokemon = async (id)=>{\r\n  return await axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`http://pokeapi.co/api/v2/pokemon/${id}`)\r\n};\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (getPokemon);\n\n//# sourceURL=webpack:///./src/api-functions/getPokemon.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconst getPokemon = async (id)=>{\r\n  return await axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`https://pokeapi.co/api/v2/pokemon/${id}`)\r\n};\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (getPokemon);\n\n//# sourceURL=webpack:///./src/api-functions/getPokemon.js?");
 
 /***/ }),
 
