@@ -1,7 +1,7 @@
 # Pokedex
 
 ## Quick start
-#### Clone or download repository
+#### Clone or download repository, then open it, and run this command in terminal
 ```
 npm install
 ````
