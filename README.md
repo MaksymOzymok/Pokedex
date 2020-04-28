@@ -5,7 +5,7 @@
 ```
 npm install
 ````
-###And then
+### And then
 ```
 npm start
 ```
